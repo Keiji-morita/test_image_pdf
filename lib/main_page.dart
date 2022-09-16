@@ -76,7 +76,7 @@ class _MainPageState extends ConsumerState<MainPage> {
                           context,
                           MaterialPageRoute(
                               builder: (context) =>
-                                  TakePictureScreen(camera: data)));
+                                  TakePictureScreen()));
                     },
                     icon: Icon(Icons.camera),
                   ),
